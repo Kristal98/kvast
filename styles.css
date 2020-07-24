@@ -4,11 +4,18 @@ body{
     padding: 0;
 }
 
-.header .wrapper{
-    width: 800px;
+.btn{
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid black;
 }
 
-.header{
+.wrapper{
+    margin: 0 auto;
+    width:  800px;
+}
+
+.first-block{
     background: url(img/wheat-back.jpg) no-repeat;
     height: 550px;
     width: 100%;
@@ -16,20 +23,19 @@ body{
     background-size: cover;
 }
 
-.header img{
+.first-block img{
     display: block;
-    margin-left: 200px;
     margin-top: 50px;
     width: 140px;
     float: left;
 }
 
-.header .nav{
+.first-block .nav{
     width: 600px;
     float: right;
 }
 
-.header ul{
+.first-block ul{
     display: block;
     list-style: none;
     text-align: center;
@@ -41,22 +47,57 @@ body{
     margin-top: 70px;
 }
 
-.header li{
+.first-block li{
     display: inline-block;
     margin-left: 55px;
 }
 
-.header li a{
+.first-block li a{
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
     color: white;
 }
 
-.header p{
+.first-block p{
     font-size: 70px;
+    line-height: 70px;
     font-weight: bold;
     color: white;
     text-align: center;
     margin-top: 145px;
+}
+
+.second-block{
+
+}
+
+.second-block h2{
+    font-size: 70px;
+    line-height: 61px;
+    color: black;
+}
+
+.second-block h3{
+    font-size: 40px;
+    line-height: 61px;
+    font-weight: bold;
+}
+
+.second-block p:nth-of-type(1){
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.second-block p:nth-of-type(2){
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.second-block table{
+    border-collapse: collapse;
+}
+
+.second-block td{
+    border: 1px solid gray;
 }
