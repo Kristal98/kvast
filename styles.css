@@ -219,11 +219,17 @@ h2{
     clear: both;
 }
 
+.fourth-block{
+    height: 680px;
+}
+
 .fourth-block h2{
     font-size: 40px;
     line-height: 61px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 55px;
 }
 
 .fourth-block dt{
@@ -238,6 +244,14 @@ h2{
     padding: 0;
     font-size: 16px;
     line-height: 30px;
+}
+
+.fourth-block dd:first-of-type{
+    margin-bottom: 60px;
+}
+
+.fourth-block dd p{
+    width: 490px;
 }
 
 .fourth-block cite{
@@ -389,7 +403,163 @@ h2{
     background-color: #ffcb78;
 }
 
+.seventh-block h2{
+    padding-top: 95px;
+    font-size: 40px;
+    line-height: 61px;
+    font-weight: bold;
+}
+
+.seventh-block p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #404040;
+}
+
+.seventh-block input, select{
+    background-color: #e5b66c;
+    width: 630px;
+    height: 50px;
+    border: none;
+}
+
+.seventh-block label{
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.seventh-block input[name='number'], .seventh-block input[name='second-number']{
+    width: 290px;
+    float: left;
+}
+
+.seventh-block input[name='second-number']{
+    float: right;
+}
+
+.seventh-block .wrapper-table{
+    margin: 0 auto;
+    width: 630px;
+}
+
+.seventh-block select{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #b69054;
+    padding-left: 15px;
+}
+
+.seventh-block textarea{
+    background-color: #e5b66c;
+    border: none;
+    width: 630px;
+    height: 120px;
+}
+
+.seventh-block input[type='checkbox']{
+    margin: 0;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-color: #e5b66c;
+    color: black;
+}
+
+.seventh-block label[for='subscribe']{
+    float: left;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: auto;
+    font-weight: bold;
+}
+
+.seventh-block .btn-submit{
+    width: 200px;
+    height: 50px;
+    background-color: #834700;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    border: none;
+}
+
+.seventh-block .btn-submit:hover{
+
+}
+
+.seventh-block .btn-submit:active{
+
+}
+
 .eighth-block{
     height: 295px;
-    background-color: #000000;
+    background-color: black;
+}
+
+.eighth-block ul{
+    display: block;
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+    margin-top: -15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.eighth-block li{
+    display: inline-block;
+    margin-left: 55px;
+    list-style: none;
+}
+
+.eighth-block li a{
+    font-size: 16px;
+    line-height: auto;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.eighth-block p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #989898;
+    width: 200px;
+}
+
+.eighth-block .social{
+    margin: 0;
+    padding: 30px;
+    margin-left: -1px;
+    border: 1px solid #322d24;
+    font-size: 0;
+    float: left;
+}
+
+.instagram{
+    background: #1b1b1b url(img/icon-insta.png) no-repeat 50%;
+}
+
+.facebook{
+    background: #1b1b1b url(img/icon-fb.png) no-repeat 50%;
+}
+
+.vkontakte{
+    background: #1b1b1b url(img/icon-vk.png) no-repeat 50%;
+}
+
+.eighth-block img:first-of-type{
+    
 }
