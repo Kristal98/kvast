@@ -467,8 +467,8 @@ h2{
 .seventh-block input[type='checkbox']{
     margin: 0;
     padding: 0;
-    width: 35px;
-    height: 35px;
+    width: auto;
+    height: auto;
     float: left;
     background-color: #e5b66c;
     color: black;
@@ -493,6 +493,7 @@ h2{
     text-transform: uppercase;
     padding: 20px;
     border: none;
+    float: left;
 }
 
 .seventh-block .btn-submit:hover{
