@@ -53,12 +53,11 @@ h2{
 }
 
 .first-block ul{
-    display: block;
+    display: inline-block;
     list-style: none;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 60px;
     margin-top: 70px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -66,12 +65,16 @@ h2{
 
 .first-block li{
     display: inline-block;
-    margin-left: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
     list-style: none;
 }
 
 .first-block li a{
     text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
     font-size: 16px;
     font-weight: bold;
     color: white;
@@ -506,21 +509,24 @@ h2{
 }
 
 .eighth-block ul{
-    display: block;
+    display: inline-block;
     list-style: none;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 60px;
+    margin-right: 100px;
     margin-top: -15px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    float: right;
 }
 
 .eighth-block li{
     display: inline-block;
     margin-left: 55px;
     list-style: none;
+    text-align: center;
+    margin-left: 50px;
 }
 
 .eighth-block li a{
@@ -537,6 +543,7 @@ h2{
     line-height: 20px;
     color: #989898;
     width: 200px;
+    margin-left: 200px;
 }
 
 .eighth-block .social{
@@ -561,5 +568,36 @@ h2{
 }
 
 .eighth-block img:first-of-type{
-    
+
+}
+
+.eighth-block .wrapper-footer-link{
+    margin: 0 auto;
+    width: 300px;
+    margin-left: 770px;
+}
+
+.eighth-block .wrapper-footer-link img{
+    float: left;
+}
+
+.eighth-block .host{
+    font-size: 14px;
+    line-height: 20px;
+    color: #989898;
+    text-decoration: none;
+    float: right;
+}
+
+.eighth-block .host:first-child{
+    float: left;
+}
+
+.eighth-block .host:last-child{
+    float: right;
+}
+
+.eighth-block .wrapper-label{
+    margin: 0 auto;
+    width: 200px;   
 }
