@@ -11,7 +11,7 @@ h2{
 }
 
 .btn{
-    padding: 20px;
+    padding: 15px 20px;
     text-decoration: none;
     border: 1px solid black;
     text-transform: uppercase;
@@ -25,11 +25,27 @@ h2{
 .wrapper2{
     margin: 0 auto;
     width: 400px;
+    position: absolute;
+    top: 870px;
+    left: 720px;
+}
+
+.wrapper2-1{
+    margin: 0 auto;
+    width: 400px;
+    position: absolute;
+    top: 870px;
+    left: 1170px;
 }
 
 .wrapper3{
     margin: 0 auto;
     width: 1015px;
+}
+
+.wrapper-title{
+    margin: 0 auto;
+    width: 600px;
 }
 
 .first-block{
@@ -49,15 +65,14 @@ h2{
 
 .first-block .nav{
     width: 600px;
-    float: left;
+    float: right;
 }
 
 .first-block ul{
     display: inline-block;
     list-style: none;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     margin-top: 70px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -65,10 +80,14 @@ h2{
 
 .first-block li{
     display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0;
+    margin-right: 50px;
     text-align: center;
     list-style: none;
+}
+
+.first-block li:last-child{
+    margin: 0;
 }
 
 .first-block li a{
@@ -115,22 +134,24 @@ h2{
 
 .second-block .bear-1{
     float: left;
-    width: 400px;
+    width: 334px;
 }
 
 .second-block .bear-2{
-    float: left;
-    width: 400px;
+    float: right;
+    width: 334px;
 }
 
-.second-block .wrapper2 p{
+.second-block .wrapper2 p, .second-block .wrapper2-1 p{
     font-size: 14px;
     line-height: 24px;
+    width: 150px;
 }
 
 .second-block p{
     font-size: 16px;
     line-height: 30px;
+    margin-bottom: 70px;
 }
 
 .desc-kvas{
@@ -139,11 +160,11 @@ h2{
 }
 
 .second-block img{
-    float: left;
+    
 }
 
 .second-block p{
-    float: right;
+    
 }
 
 .btn-info{
@@ -154,6 +175,7 @@ h2{
     background-color: white;
     color: #834700;
     border: 1px solid #844802;
+    margin-right: 5px;
 }
 
 .btn-info:hover{
@@ -172,6 +194,7 @@ h2{
     color: white;
     background-color: #834700;
     border: 1px solid #834700;
+    margin-right: 20px;
 }
 
 .btn-buy:hover{
@@ -184,13 +207,15 @@ h2{
 
 .second-block table{
     border-collapse: collapse;
-    float: right;
 }
 
 .second-block td{
     border: 1px solid #e5e5e5;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 0 15px;
+    font-size: 16px;
+    line-height: 41px;
+    font-weight: bold;
 }
 
 .third-block{
@@ -443,9 +468,19 @@ h2{
     float: right;
 }
 
-.seventh-block .wrapper-table{
-    margin: 0 auto;
-    width: 630px;
+.seventh-block .container-1{
+    float: left;
+    margin-right: 46px;
+}
+
+.seventh-block .container-2{
+    float: left;
+}
+
+.seventh-block .container-2::after, .seventh-block .container-1::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .seventh-block select{
@@ -513,8 +548,7 @@ h2{
     display: inline-block;
     list-style: none;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     margin-right: 100px;
     margin-top: -15px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -524,10 +558,13 @@ h2{
 
 .eighth-block li{
     display: inline-block;
-    margin-left: 55px;
+    margin-right: 50px;
     list-style: none;
     text-align: center;
-    margin-left: 50px;
+}
+
+.eighth-block li:last-child{
+    margin: 0;
 }
 
 .eighth-block li a{
