@@ -173,14 +173,6 @@ h2{
     line-height: 30px;
 }
 
-.second-block img{
-    
-}
-
-.second-block p{
-    
-}
-
 .btn-info{
     font-size: 16px;
     line-height: 20px;
@@ -459,7 +451,7 @@ h2{
 }
 
 .seventh-block h2{
-    padding-top: 95px;
+    padding-top: 85px;
     font-size: 40px;
     line-height: 61px;
     font-weight: bold;
@@ -469,6 +461,9 @@ h2{
     font-size: 16px;
     line-height: 30px;
     color: #404040;
+    width: 650px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .seventh-block input, select{
@@ -476,6 +471,7 @@ h2{
     width: 630px;
     height: 50px;
     border: none;
+    margin-bottom: 30px;
 }
 
 .seventh-block label{
@@ -519,13 +515,26 @@ h2{
     padding-left: 15px;
 }
 
-.seventh-block input[name='fullname']:hover{
+.seventh-block input:hover:not(.btn-submit){
     background-color: #d9ad66;
 }
 
-.seventh-block input[name='fullname']:focus{
+.seventh-block input:focus:not(.btn-submit){
     background-color: white;
     
+}
+
+.seventh-block input::placeholder{
+    color: transparent;
+}
+
+.seventh-block input:focus::placeholder{
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
 .seventh-block textarea{
@@ -543,14 +552,34 @@ h2{
     float: left;
     background-color: #e5b66c;
     color: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.seventh-block label{
+    margin-bottom: 15px;
 }
 
 .seventh-block label[for='subscribe']{
     float: left;
-    margin-left: 30px;
+    margin-left: 15px;
     font-size: 16px;
     line-height: auto;
     font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.seventh-block .wrapper-table{
+    margin: 0;
+    width: 450px;
+}
+
+.seventh-block .wrapper-table::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .seventh-block .btn-submit{
@@ -565,14 +594,6 @@ h2{
     padding: 20px;
     border: none;
     float: left;
-}
-
-.seventh-block .btn-submit:hover{
-
-}
-
-.seventh-block .btn-submit:active{
-
 }
 
 .eighth-block{
@@ -612,6 +633,16 @@ h2{
     font-weight: bold;
 }
 
+.eighth-block li a:hover{
+    color: #ffcb78;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.eighth-block li a:active{
+    color: rgba(255, 203, 120, 0.3);
+}
+
 .eighth-block p{
     font-size: 14px;
     line-height: 20px;
@@ -630,6 +661,14 @@ h2{
     border: 1px solid #322d24;
     font-size: 0;
     float: left;
+}
+
+.eighth-block .social:hover{
+    border-color: #605037;
+}
+
+.eighth-block .social:active{
+    border-color: #2d281f;
 }
 
 .instagram{
@@ -662,6 +701,14 @@ h2{
     background-color: #1b1b1b;
     border: 1px solid #322d24;
     float: left;
+}
+
+.eighth-block .wrapper-footer-link img:hover{
+    border-color: #605037;
+}
+
+.eighth-block .wrapper-footer-link img:active{
+    border-color: #2d281f;
 }
 
 .eighth-block .host{
